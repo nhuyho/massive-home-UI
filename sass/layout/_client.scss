@@ -1,0 +1,35 @@
+.clients {
+    background-color: $color-black-2;
+    padding: $pd-4;
+    .clients__massive {
+        h3 {
+            color: $color-white-0;
+            letter-spacing: $ls-2;
+            font-weight: $fw-1;
+            margin-bottom: $mg-3;
+        }
+        p {
+            line-height: 30px;
+            color: $color-gray-1;
+        }
+    }
+    .clients__post,
+    .clients__follow {
+        h5 {
+            letter-spacing: $ls-3;
+            color: $color-white-0;
+            font-weight: normal;
+        }
+        ul {
+            list-style: none;
+            li {
+                border-bottom: 1px solid $color-gray-1;
+                a {
+                    line-height: 45px;
+                    text-decoration: none;
+                    color: $color-gray-1;
+                }
+            }
+        }
+    }
+}

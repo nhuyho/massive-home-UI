@@ -1,0 +1,32 @@
+.fun {
+  background-color: $color-black-3;
+  .fun__list {
+    padding: $pd-4 0;
+    margin: 0 auto;
+    .fun__item {
+      text-align: center;
+      color: $color-white-0;
+      letter-spacing: $ls-3;
+      .fun__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: $mg-0;
+        i {
+          font-size: $fs-3 + 5;
+          padding-right: $pd-2;
+        }
+        h1 {
+          font-weight: $fw-0;
+          line-height: 40px;
+        }
+      }
+    }
+    .fun__info {
+      span {
+        letter-spacing: $ls-3;
+        font-weight: $fw-0;
+      }
+    }
+  }
+}

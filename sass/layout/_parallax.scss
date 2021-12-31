@@ -1,0 +1,42 @@
+.parallax {
+  background-image: url(../../img/parallax-cover.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  opacity: 0.9;
+  .parallax-content {
+    text-align: center;
+    padding: $pd-7;
+    span {
+      @include styleText($fs-1 + 1, $color-orange-0, $fw-0);
+      letter-spacing: $ls-2 + 1;
+    }
+    h1 {
+      letter-spacing: $ls-2;
+      font-weight: $fw-1;
+      color: $color-white-0;
+    }
+  }
+  .parallax-btn {
+    margin-top: $mg-4;
+    &:hover {
+      button {
+        background-color: $color-white-0;
+        transition: all 0.4s;
+        color: $color-black-7;
+      }
+    }
+    button {
+      background-color: $color-orange-1;
+      padding: $pd-0 $pd-1;
+      letter-spacing: $ls-3;
+      color: $color-white-0;
+      font-size: $fs-1 - 1;
+      font-weight: $fw-0;
+      border: none;
+    }
+  }
+}
